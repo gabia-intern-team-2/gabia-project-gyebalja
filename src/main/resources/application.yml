@@ -1,0 +1,16 @@
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://211.53.209.130:3306/gyebalja_test_hj?serverTimezone=UTC&characterEncoding=UTF-8
+    username: gabiateam2
+    password: Gabia12345!!
+  jpa:
+    properties:
+      hibernate:
+        show_sql: true
+        use_sql_comments: true
+        format_sql: true
+        type: trace
+
+# spring.jpa.properties.hibernate.~ : To see mysql query
